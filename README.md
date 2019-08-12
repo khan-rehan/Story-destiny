@@ -1,4 +1,11 @@
 # Story-destiny
+Flowchart:
+
+
+<img width="716" alt="Screenshot 2019-08-12 at 9 38 23 PM" src="https://user-images.githubusercontent.com/42263217/62889685-81477f00-bd5f-11e9-9167-208cab87f1d7.png">
+
+
+
 
 App icon
 
