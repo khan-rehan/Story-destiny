@@ -1,32 +1,63 @@
 # Story-destiny ![Author -Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)
 
-Flowchart of app:
+A one-to-one chat app built on Flutter with firebase authentication.
+
+For help getting started with Flutter, view the online [documentation](https://flutter.dev).
+
+You can check out the corresponding Google code lab [here](https://codelabs.developers.google.com/codelabs/flutter/index.html?index=..%2F..%2Findex#0).
+
+## Flowchart of app:
 
 <img width="716" alt="Screenshot 2019-08-12 at 9 38 23 PM" src="https://user-images.githubusercontent.com/42263217/62889685-81477f00-bd5f-11e9-9167-208cab87f1d7.png">
 
 ---
-
-App UI
+# Demo
 
 ![Story Gif](story.gif)
 
----
+# Getting Started
 
-🖥Requirements
+**Note:** Make sure your Flutter environment is setup & if not install then [Click here to install](https://flutter.dev/docs/get-started/install)
 
-- Any Operating System (i.e. MacOS X, Linux, WIndows)
-- IDE (i.e. VsCode, Android Studio)
-- **Flutter plugin** if not there [Click here to install](https://flutter.dev/docs/get-started/install)
-- Simulator/Emulator/A real mobile device connected to the system.
+**Installation**
 
----
-
-How to run:
+In the command terminal, run the following commands:
 
 ```
-- Download the source code by using command "git clone https://github.com/khan-rehan/Story-destiny.git" in command line.
-- Open the project in Android studio/Vscode and also open the simulator/emulator.
-- Now do the following:
-    1. Type flutter get packages in terminal of Studio/VsCode.
-    2. Click on run in Android studio/ type "flutter run" in terminal of VsCode and there you go!.
+$ git clone https://github.com/khan-rehan/Story-destiny.git
+
+$ cd Story-destiny/
+
+$ flutter run
 ```
+
+# Simulate for iOS
+
+## Method One
+
+```
+Open the project in Xcode from ios/Runner.xcodeproj.
+Hit the play button.
+```
+
+## Method Two
+
+```
+Run the following command in your terminal.
+$ open -a Simulator
+$ flutter run
+```
+
+# Simulate for Android
+
+```
+Make sure you have an Android emulator installed and running.
+Run the following command in your terminal.
+$ flutter run
+```
+
+
+
+
+
+
