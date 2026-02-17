@@ -1,61 +1,44 @@
-# Story-destiny ![Author -Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)
+# Story Destiny
 
-For help getting started with Flutter, view the online [documentation](https://flutter.dev).
+![Author - Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)
 
-You can check out the corresponding Google code lab [here](https://codelabs.developers.google.com/codelabs/flutter/index.html?index=..%2F..%2Findex#0).
+An interactive branching story game built with Flutter. Make choices at each step that determine the narrative path and lead to different endings.
 
-## Flowchart of app:
+## Features
 
-<img width="716" alt="Screenshot 2019-08-12 at 9 38 23 PM" src="https://user-images.githubusercontent.com/42263217/62889685-81477f00-bd5f-11e9-9167-208cab87f1d7.png">
+- Branching narrative with multiple story paths
+- Two choice buttons at each decision point
+- Multiple possible endings based on your choices
+- Dark-themed immersive UI with background image
 
----
-# Demo
+## Tech Stack
 
-![Story Gif](story.gif)
+- **Framework:** Flutter
+- **Language:** Dart
 
-# Getting Started
-
-**Note:** Make sure your Flutter environment is setup & if not installed then [Click here to install](https://flutter.dev/docs/get-started/install)
-
-**Installation**
-
-In the command terminal, run the following commands:
+## Project Structure
 
 ```
-$ git clone https://github.com/khan-rehan/Story-destiny.git
-
-$ cd Story-destiny/
-
-$ flutter run
+lib/
+├── main.dart           # Story UI with choice buttons
+├── story_brain.dart    # Story logic and progression engine
+└── story.dart          # Story data model
 ```
 
-# Simulate for iOS
+## Story Flowchart
 
-## Method One
+<img width="716" alt="Story Flowchart" src="https://user-images.githubusercontent.com/42263217/62889685-81477f00-bd5f-11e9-9167-208cab87f1d7.png">
 
-```
-Open the project in Xcode from ios/Runner.xcodeproj.
-Hit the play button.
-```
+## Getting Started
 
-## Method Two
+**Prerequisites:** [Flutter SDK](https://flutter.dev/docs/get-started/install)
 
-```
-Run the following command in your terminal.
-$ open -a Simulator
-$ flutter run
+```sh
+git clone https://github.com/khan-rehan/Story-destiny.git
+cd Story-destiny
+flutter run
 ```
 
-# Simulate for Android
+## Demo
 
-```
-Make sure you have an Android emulator installed and running.
-Run the following command in your terminal.
-$ flutter run
-```
-
-
-
-
-
-
+![Story Destiny Demo](story.gif)
